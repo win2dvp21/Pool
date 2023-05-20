@@ -1,10 +1,3 @@
-.goback-button{
-    position: absolute;
-    left: 7.95%;
-    right: 88.97%;
-    top: 5.21%;
-    bottom: 92.3%;
-}
 .NFT-Collection{
     position: absolute;
     left: 7.95%;
@@ -13,7 +6,7 @@
     bottom: 83.89%;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     color: #666666;
@@ -24,26 +17,52 @@
     height: 355px;
     left: 17px;
     top: 170px;
-    bottom: 319px;
 }
-.Gooodsnftyellow{
+.Gooodsnft1{
+   position: absolute;
+width: 108px;
+height: 108px;
+left: 26px;
+top: 599px;
+}
+.Gooodsnft2{
     position: absolute;
-    left: 26px;
-    bottom: 137px;
-    right: 256px;
-    top: 599px;
+width: 108px;
+height: 108px;
+left: 144px;
+top: 599px;
 }
-.Gooodsnftblue{
+.Gooodsnft3{
     position: absolute;
-    top: 599px;
-    bottom: 137px;
-    left: 144px;
-    right: 138px;
+width: 108px;
+height: 108px;
+left: 263px;
+top: 599px;
 }
-.Gooodsnftorange{
+.name{
     position: absolute;
-    top: 599px;
-    bottom: 137px;
-    right: 19px;
-    left: 263px;
+width: 140px;
+height: 19px;
+left: 26px;
+top: 536px;
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
 }
+.date{
+    position: absolute;
+width: 64px;
+height: 14px;
+left: 26px;
+top: 560px;
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+color: #8E8E8E;
+}
+

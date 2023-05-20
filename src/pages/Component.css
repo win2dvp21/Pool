@@ -367,7 +367,9 @@
 }
 
 .my {
-  left: 312px;
+  left: 307px;
+  border: none;
+  background-color: #FFFFFF;
 }
 
 .rectangle-div {
