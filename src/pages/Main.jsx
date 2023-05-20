@@ -17,6 +17,10 @@ export default function Main() {
     navigate('/design'); // '/design' 페이지로 이동
   }
 
+  const go_mypage = () => {
+    navigate('/mypage'); // '/mypage' 페이지로 이동
+  }
+
   return (
     <div className="div">
 
@@ -85,7 +89,7 @@ export default function Main() {
         <div className="home">Home</div>
         <div className="cart">Cart</div>
         <div className="like">Like</div>
-        <div className="my">MY</div>
+        <button className="my" onClick={go_mypage}>MY</button>
       </div>
 
       <img className="ewha" alt="" src="/img/ewha.png" />
@@ -98,10 +102,10 @@ export default function Main() {
           border: '1px solid gray'
         }}
         onClick={go_design}
-        >
-          <EditOutlinedIcon />
+      >
+        <EditOutlinedIcon />
       </IconButton>
-      
+
     </div>
 
   );

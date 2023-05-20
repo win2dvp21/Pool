@@ -1,19 +1,21 @@
 .shoppingcarticon,
 .favoritebordericon,
 .redaccounticon,
-.greyhomeicon{
-    position: absolute;
+.greyhomeicon {
+    position: fixed;
+    top: 14px;
+    left: 52px;
     width: 32px;
     height: 32px;
-    top: 763px;
+    overflow: hidden;
 }
 
 .greyhome,
 .redaccount,
 .favoriteborder,
-.shoppingcart{
+.shoppingcart {
     position: absolute;
-    top: 797px;
+    top: 30px;
     height: 14px;
     font-family: 'Pretendard';
     font-style: normal;
@@ -21,39 +23,48 @@
     font-size: 12px;
     line-height: 14px;
 }
-.greyhome{
+
+.greyhome {
     width: 33px;
     left: 52px;
     color: #999999;
 }
-.shoppingcart{
+
+.shoppingcart {
     width: 24px;
     left: 140px;
     color: #999999;
 }
-.favoriteborder{
+
+.favoriteborder {
     width: 23px;
     left: 227px;
     color: #999999;
 }
-.redaccount{
+
+.redaccount {
     width: 19px;
     left: 311px;
     color: #D3645f;
 }
-.shoppingcarticon{
+
+.shoppingcarticon {
     left: 136px;
 }
-.favoritebordericon{
+
+.favoritebordericon {
     left: 221px;
 }
-.greyhomeicon{
+
+.greyhomeicon {
     left: 52px;
 }
-.redaccounticon{
+
+.redaccounticon {
     left: 305px;
 }
-.bottomline{
+
+.bottomline {
     position: absolute;
     width: 401px;
     height: 0px;
@@ -61,21 +72,24 @@
     top: 755px;
     border: 1px solid #c4c4c4;
 }
-.gobackicon{
+
+.gobackicon {
     position: absolute;
     left: 7.95%;
     right: 88.97%;
     top: 5.21%;
     bottom: 92.3%;
 }
-.profileimg{
+
+.profileimg {
     position: absolute;
     width: 70px;
     height: 70px;
     left: 31px;
     top: 107px;
 }
-.username{
+
+.username {
     position: absolute;
     width: 133px;
     height: 29px;
@@ -88,7 +102,8 @@
     line-height: 29px;
     color: #000000;
 }
-.address{
+
+.address {
     position: absolute;
     width: 52px;
     height: 12px;
@@ -101,7 +116,8 @@
     line-height: 12px;
     color: #878787;
 }
-.school{
+
+.school {
     position: absolute;
     width: 111px;
     height: 12px;
@@ -114,7 +130,8 @@
     line-height: 12px;
     color: #878787;
 }
-.profilebox{
+
+.profilebox {
     position: absolute;
     z-index: 1;
     width: 328px;
@@ -122,12 +139,10 @@
     left: 31px;
     top: 229px;
     background: #ffffff;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
     border-radius: 8px;
-    border: none;
-    outline: none;
 }
-.profileline{
+
+.profileline {
     position: absolute;
     z-index: 2;
     left: 195px;
@@ -136,10 +151,11 @@
     top: 247px;
     border: 1px solid #c8c8c8;
 }
-.purchase-history{
+
+.purchasehistory {
     z-index: 2;
     position: absolute;
-    width: 200px;
+    width: 30%;
     height: 17px;
     left: 58px;
     top: 252px;
@@ -148,8 +164,12 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+    color: #343434;
+    background-color: #ffffff;
+    border: none;
 }
-.history-num{
+
+.history-num {
     z-index: 2;
     position: absolute;
     width: 13px;
@@ -163,12 +183,13 @@
     line-height: 24px;
     color: #424242;
 }
-.nfts{
+
+.nfts {
     position: absolute;
     z-index: 2;
-    width: 33px;
+    width: 30%;
     height: 17px;
-    left: 260px;
+    left: 215px;
     top: 252px;
     font-family: 'Pretendard';
     font-style: normal;
@@ -176,8 +197,11 @@
     font-size: 14px;
     line-height: 17px;
     color: #343434;
+    background-color: #ffffff;
+    border: none;
 }
-.nfts-num{
+
+.nfts-num {
     position: absolute;
     z-index: 2;
     width: 12px;
@@ -191,7 +215,8 @@
     line-height: 24px;
     color: #424242;
 }
-.settings{
+
+.settings {
     position: absolute;
     width: 35px;
     height: 24px;
@@ -203,10 +228,185 @@
     font-size: 20px;
     line-height: 24px;
 }
-.edit-icon{
+
+.edit-icon {
     position: absolute;
     width: 26px;
     height: 26px;
     left: 257px;
     top: 107px;
+}
+
+.mypage-middleline {
+    position: absolute;
+    width: 398px;
+    height: 8px;
+    left: 0px;
+    top: 372px;
+}
+
+.recently-viewed {
+    position: absolute;
+    width: 195px;
+    height: 19px;
+    left: 31px;
+    top: 412px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.mypage-firstproduct {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 29px;
+    top: 446px;
+}
+
+.mypage-secondproduct {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 139px;
+    top: 446px;
+}
+
+.mypage-thirdproduct {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 249px;
+    top: 446px;
+}
+
+.mypage-fourthproduct {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 359px;
+    top: 446px;
+}
+
+.firstprice {
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 31px;
+    top: 553px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #313131;
+}
+
+.secondprice {
+    position: absolute;
+    width: 73px;
+    height: 15px;
+    left: 142px;
+    top: 553px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #313131;
+}
+
+.thirdprice {
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 253px;
+    top: 553px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #313131;
+}
+
+.fourthprice {
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 364px;
+    top: 553px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #313131;
+}
+
+.scrollnext {
+    position: absolute;
+    left: 95.13%;
+    right: 1.79%;
+    top: 48.7%;
+    bottom: 48.82%;
+}
+
+.Help {
+    position: absolute;
+    width: 34px;
+    height: 19px;
+    left: 31px;
+    top: 639px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.CustomerSupport {
+    position: absolute;
+    width: 122px;
+    height: 17px;
+    left: 29px;
+    top: 687px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.Faq {
+    position: absolute;
+    width: 27px;
+    height: 17px;
+    left: 29px;
+    top: 721px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.mypagelowline {
+    position: absolute;
+    width: 398px;
+    height: 8px;
+    left: 0px;
+    top: 599px;
+
 }

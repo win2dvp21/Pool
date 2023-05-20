@@ -8,19 +8,21 @@
 .shoppingcarticon,
 .favoritebordericon,
 .redaccounticon,
-.greyhomeicon{
+.greyhomeicon {
     position: absolute;
+    top: 14px;
+    left: 52px;
     width: 32px;
     height: 32px;
-    top: 763px;
+    overflow: hidden;
 }
 
 .greyhome,
 .redaccount,
 .favoriteborder,
-.shoppingcart{
+.shoppingcart {
     position: absolute;
-    top: 797px;
+    top: 48px;
     height: 14px;
     font-family: 'Pretendard';
     font-style: normal;
@@ -28,36 +30,44 @@
     font-size: 12px;
     line-height: 14px;
 }
-.greyhome{
+
+.greyhome {
     width: 33px;
     left: 52px;
     color: #999999;
 }
-.shoppingcart{
+
+.shoppingcart {
     width: 24px;
     left: 140px;
     color: #999999;
 }
-.favoriteborder{
+
+.favoriteborder {
     width: 23px;
     left: 227px;
     color: #999999;
 }
-.redaccount{
+
+.redaccount {
     width: 19px;
     left: 311px;
     color: #D3645f;
 }
-.shoppingcarticon{
+
+.shoppingcarticon {
     left: 136px;
 }
-.favoritebordericon{
+
+.favoritebordericon {
     left: 221px;
 }
-.greyhomeicon{
+
+.greyhomeicon {
     left: 52px;
 }
-.redaccounticon{
+
+.redaccounticon {
     left: 305px;
 }
 .bottomline{
@@ -77,10 +87,11 @@
 }
 .purchase-history{
     position: absolute;
-    left: 7.95%;
+    left: 31px;
+    right: 168px;
     /* right: 43.08%; */
-    top: 12.68%;
-    bottom: 83.89%;
+    top: 107px;
+    bottom: 708px;
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 600;
@@ -95,7 +106,6 @@
     left: 29px;
     top: 178px;
     background: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
     border-radius: 8px;
 }
 .box-bluetag{
@@ -196,7 +206,6 @@
     left: 29px;
     top: 336px;
     background: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
     border-radius: 8px;
 }
 .box-greytag{
@@ -302,7 +311,6 @@
     left: 29px;
     top: 495px;
     background: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
     border-radius: 8px;
 }
 .ewhatshirt{

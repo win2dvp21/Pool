@@ -13,6 +13,13 @@ const Nftlist = () => {
         navigate('/mypage');
     };
 
+    const goPoolNft = () => {
+        navigate('/Poolnft');
+    }
+
+    const goGooodsNft = () =>{
+        navigate('/Gooodsnft')
+    }
     return (
         <div>
             <IconButton
@@ -42,7 +49,7 @@ const Nftlist = () => {
             >
                 NFT Collection
             </p>
-
+            
 
             <Button
                 color="secondary"
@@ -70,6 +77,7 @@ const Nftlist = () => {
                         height: '66%',
                         objectFit: 'contain',
                     }}
+                    onClick={goPoolNft}
                 />
             </Button>
 
@@ -91,7 +99,7 @@ const Nftlist = () => {
                 <img
                     className='nftpool-2'
                     alt=''
-                    src="/img/nftpool2.png"
+                    src="/img/gooodsnft1.png"
                     style={{
                         top: '3%',
                         left: '0%',
@@ -99,6 +107,7 @@ const Nftlist = () => {
                         height: '66%',
                         objectFit: 'contain',
                     }}
+                    onClick={goGooodsNft}
                 />
             </Button>
 

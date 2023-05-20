@@ -19,34 +19,52 @@ import user2 from '../img/user.png';
 import user3 from '../img/user.png';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import { useNavigate } from 'react-router-dom';
 
- 
 export default function ShoppingHistory() {
-       return (
+    const navigate = useNavigate();
+
+    const goBackPage = () => {
+        navigate('/Mypage');
+    };
+    return (
         <div className="div29">
-            <div className="" />
-            <img className='greyhomeicon' alt="" src={greyhomeicon} />
-            <img className='shoppingcarticon' alt="" src={shoppingcarticon} />
-            <img className='favoritebordericon' alt="" src={favoritebordericon} />
-            <img className='redaccounticon' alt="" src={redaccounticon} />
-            <div className="greyhome">Home</div>
-            <div className="shoppingcart">Cart</div>
-            <div className="favoriteborder">Like</div>
-            <div className="redaccount">MY</div>
-            <img className='bottomline' alt="" src={bottomline} />
+
+            <div
+                style={{
+                    position: 'fixed',
+                    height: '10%',
+                    bottom: '0px',
+                    left: 0,
+                    right: 0,
+                    borderTop: '1px solid #D9D9D9',
+                    display: 'flex'
+                }}
+            >
+
+                <img className="greyhomeicon" alt="" src="/img/greyhome.png" />
+                <img className="shoppingcarticon" alt="" src="/img/shoppingcart.png" />
+                <img className="favoritebordericon" alt="" src="/img/favoriteborder.png" />
+                <img className="redaccounticon" alt="" src="/img/redaccount.png" />
+                <div className="greyhome">Home</div>
+                <div className="cart">Cart</div>
+                <div className="like">Like</div>
+                <div className="redaccount">MY</div>
+            </div>
 
             <div className="child49" />
 
-           <div>
-            <IconButton
-                style={{
-                    position: 'absolute',
-                    top: '5.21%',
-                    left: '5%'
-                }}
-            >
-                <ArrowBackIosNewIcon />
-            </IconButton>
+            <div>
+                <IconButton
+                    style={{
+                        position: 'absolute',
+                        top: '5.21%',
+                        left: '5%'
+                    }}
+                    onClick={goBackPage}
+                >
+                    <ArrowBackIosNewIcon />
+                </IconButton>
             </div>
 
             <img className='first-purchase-box' alt="" src={first_purchase_box} />
