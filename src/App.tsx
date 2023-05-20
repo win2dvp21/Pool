@@ -41,7 +41,6 @@ function App() {
         <Route path="/connect/*" element={<Connect />}></Route>
       </Routes>
     </BrowserRouter>
-    
   );
 }
 
