@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -16,6 +17,13 @@ import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
 
 
 export default function Design() {
+
+    const navigate = useNavigate();
+
+    const go_main = () => {
+        navigate('/main'); // '/main' 페이지로 이동
+    };
+
     const [minimumCount, setMinimumCount] = useState(0);
     const [maximumCount, setMaximumCount] = useState(0);
 
@@ -36,7 +44,7 @@ export default function Design() {
     const handleButtonClick = () => {
         fileInputRef.current.click();
     };
-    
+
     const [setSelectedFile] = useState(null);
     // const [selectedFile, setSelectedFile] = useState(null); 나중에 백엔드로 선택한 이미지 보낼 때 위에 줄 말고 이거 사용
     const [previewURL, setPreviewURL] = useState('');
@@ -65,6 +73,7 @@ export default function Design() {
                     top: '5.21%',
                     left: '5%'
                 }}
+                onClick={go_main}
             >
                 <ArrowBackIosNewIcon />
             </IconButton>
@@ -218,7 +227,7 @@ export default function Design() {
                     left: '126px',
                     width: '110px',
                     height: '27px'
-               }}
+                }}
             >
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <MobileDatePicker

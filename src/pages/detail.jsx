@@ -5,11 +5,12 @@ import IconButton from '@mui/material/IconButton';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import MobileStepper from '@mui/material/MobileStepper';
 
-import productmain from '../seungImage/productmain.png';
+import productmain from '../img/productmain.png';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import detail from '../img/detail.png';
 
 export default function Detail() {
     const navigate = useNavigate();
@@ -243,17 +244,31 @@ export default function Detail() {
                 }}
             />
 
+            <img
+                src={detail}
+                alt="detail"
+                style={{
+                    position: 'absolute',
+                    width: '350px',
+                    height: '146px',
+                    left: '5%',
+                    top: '613px',
+                }}
+            />
+
             <div
                 style={{
                     position: 'fixed',
-                    bottom: '19px',
+                    height: '10%',
+                    bottom: '0px',
                     left: 0,
                     right: 0,
                     zIndex: 9999,
                     borderTop: '1px solid #D9D9D9',
+                    background: '#FFFFFF',
                     display: 'flex',
                     justifyContent: 'space-between', // 좌우 정렬
-                    padding: '0 20px', // 좌우 여백
+                    padding: '0 10px', // 좌우 여백
                     alignItems: 'center' // 수직 정렬
                 }}
             >
@@ -267,7 +282,7 @@ export default function Detail() {
                         display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        marginBottom: '-20px', // 10px 아래로 조정
+                        top: '50%'
                     }}
                 >
                     <BottomNavigationAction
@@ -283,12 +298,13 @@ export default function Detail() {
                     style={{
                         position: 'absolute',
                         width: '270px',
-                        height: '62px',
+                        height: '52px',
                         left: '60%',
-                        top: '7px',
+                        top: '50%',
                         borderRadius: '15px',
                         transform: 'translate(-50%, -50%)',
-                        background: 'linear-gradient(92.48deg, #AAA4E9 2.41%, #D09FDE 29.18%, #E1879C 64.76%, #F58282 97.3%)'
+                        background: 'linear-gradient(92.48deg, #AAA4E9 2.41%, #D09FDE 29.18%, #E1879C 64.76%, #F58282 97.3%)',
+                        boxShadow: 'none'
                     }}
                 >
                     Add To Buy
