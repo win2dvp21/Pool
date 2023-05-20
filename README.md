@@ -51,15 +51,15 @@ Core wallet
 
 - `/detail` You can check the detailed description of the product, and you can also purchase it.
 
-- `/design` What if you were a designer? Let's upload your design and find people to buy together.
+- `/design` What if you were a designer? Let's upload your design and find someone else to buy the product together.
 
-- `/mypage` You can check the purchase history, NFT, and recently viewed products.
+- `/mypage` You can check your history, NFT, and recently viewed products.
 
-- `/nftlist` Let's look at the NFT you got in one place.
+- `/nftlist` Let's look at NFTs you got for rewards in one place.
 
 - `/goodsnft`, `/poolnft` Each NFT can be checked in detail.
 
-- `/shoppinghistory` You can check the details of your purchases on POOL.
+- `/shoppinghistory` You can check the details of your purchase history on POOL.
 
 ### Wallet Adapter
 
