@@ -1,23 +1,71 @@
-# Getting Started with Core web3-react connector
+# Pool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Pick it and Pay it. Whole lots of Cherries.
 
-We then installed `@avalabs/avalanche-connector`. After that you can open `src -> context -> web3Connection.context.tsx`
+A Payment Service for the Consumer's **Reasonable**, **Effective**, **Valuable** Consumption
 
-This is meant to be the simplest example as possible and thus only deals with connecting dApps to the Core extension.
+***Cherries prepared in one place for you who want to become a cherry picker of benefits***
 
-## Connect to Core Button
+<img src="https://images.unsplash.com/photo-1562218636-798e433e94a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=826&q=80" width="187" height="280"/>
 
-You can open `src -> pages -> connect.tsx` to see a VERY rudementary version of the checking for Core connector.
+### ***Do you want some?:smile: Then PICKER'S PAY * PICK A CHERRY right now!***
 
-## Available Scripts
+## Glitch Hackathon
 
-In the project directory, you can run:
+GLITCH/KOREA is a global Web3 hackathon where Web3 builders from Korea and all over the world come together to solve given missions using blockchain technology and create innovative products.
 
-### `yarn start`
+<img src="https://app.glitch-hack.com/_next/image?url=%2Fimg%2Fpalace.png&w=384&q=75"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+For more information -> https://glitch-hack.com/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+
+## Development
+
+### How to Start
+
+(1) git clone https://github.com/win2dvp21/Pool
+
+(2) cd Pool
+
+(3) npm install 
+
+(4) npm start
+
+### Overview
+
+React TS MUI, Responsive UI
+
+Avalanche dapp sdks
+
+Core wallet
+
+### Components
+
+- `/` homepage, You can connet to your wallet.
+
+- `/consumer` You can check your wallet balance, coupons and stamp cards you own here.
+
+- `/pay` This page helps you easily pay with cryptocurrency.
+
+- `/transfer` You can transfer money to others or send coupons and stamp cards that you own.
+
+- `/coupon` You can check the coupons you own.
+
+- `/stampcard` You can check the stamp cards you own.
+
+- `/receipt` You can check your whole receipts NFT.
+
+- `/afterpay` Coupons or stamp cards can be applied while purchasing products.
+
+- `/couponorder` You can use your coupon here.
+
+- `/aftercouponorder` After you make a purchase, you can check your purchase history with the coupon applied.
+
+- `/cardorder` You can use your stampcard here.
+
+- `/aftercardorder` After you make a purchase, you can check your purchase history with the stampcard applied.
+
+### Wallet Adapter
+
+Core Wallet 
+https://core.app/
