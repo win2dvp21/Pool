@@ -1,0 +1,49 @@
+.goback-button{
+    position: absolute;
+    left: 7.95%;
+    right: 88.97%;
+    top: 5.21%;
+    bottom: 92.3%;
+}
+.NFT-Collection{
+    position: absolute;
+    left: 7.95%;
+    right: 46%;
+    top: 12.68%;
+    bottom: 83.89%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+}
+.Gooodsnft{
+    position: absolute;
+    width: 355px;
+    height: 355px;
+    left: 17px;
+    top: 170px;
+    bottom: 319px;
+}
+.Gooodsnftyellow{
+    position: absolute;
+    left: 26px;
+    bottom: 137px;
+    right: 256px;
+    top: 599px;
+}
+.Gooodsnftblue{
+    position: absolute;
+    top: 599px;
+    bottom: 137px;
+    left: 144px;
+    right: 138px;
+}
+.Gooodsnftorange{
+    position: absolute;
+    top: 599px;
+    bottom: 137px;
+    right: 19px;
+    left: 263px;
+}

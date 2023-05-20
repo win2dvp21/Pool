@@ -1,0 +1,391 @@
+.group-child,
+.inner {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.searchbox{
+  position:absolute;
+  left: 16%;
+  right: 16%;
+  top: 8.89%;
+  bottom: 90%;
+  box-shadow: 2px 2px 2px gray;
+  background: #ffffff;
+  border-radius: 39.2593px;
+}
+.group-child {
+  height: 100%;
+  bottom: 0;
+  background: linear-gradient(
+    92.48deg,
+    #aaa4e9,
+    #d09fde 28.2%,
+    #e1879c 65.71%,
+    #f58282
+  );
+}
+.inner {
+  height: 21.21%;
+  bottom: 78.79%;
+}
+.wallet {
+  height: 4.15%;
+  width: 8.97%;
+  top: 8.65%;
+  right: 3.08%;
+  bottom: 87.2%;
+  left: 87.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.top-products-box{
+  position: absolute;
+  width: 428px;
+  height: 292px;
+  left: 0px;
+  top: 176px;
+  background-color:#ffffff;
+}
+.child,
+.item,
+.wallet {
+  position: absolute;
+}
+.child {
+  height: 3.84%;
+  width: 67.95%;
+  top: 8.89%;
+  right: 16.15%;
+  bottom: 87.28%;
+  left: 15.9%;
+  border-radius: 39.26px;
+  background-color: var(--color-white);
+}
+.item {
+  top: 176px;
+  left: -24px;
+  background-color: var(--color-whitesmoke-100);
+  width: 428px;
+  height: 292px;
+}
+.group-icon {
+  position: absolute;
+  height: 4.15%;
+  width: 8.97%;
+  top: 8.65%;
+  right: 87.18%;
+  bottom: 87.2%;
+  left: 3.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.child1,
+.rectangle-icon {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  border-radius: 8px;
+  width: 200px;
+  height: 215px;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
+  object-fit: cover;
+}
+.child1 {
+  left: 242px;
+  width: 189px;
+  height: 215px;
+  top: 227px;
+  position: absolute;
+  border-radius: 8px;
+}
+.child2,
+.child3,
+.child4,
+.child5,
+.child6,
+.child7,
+.child8,
+.ellipse-icon {
+  position: absolute;
+  top: 516px;
+  left: 40px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.child2,
+.child3,
+.child4,
+.child5,
+.child6,
+.child7,
+.child8 {
+  left: 124px;
+}
+.child3,
+.child4,
+.child5,
+.child6,
+.child7,
+.child8 {
+  left: 209px;
+}
+.child4,
+.child5,
+.child6,
+.child7,
+.child8 {
+  left: 293px;
+}
+.child5,
+.child6,
+.child7,
+.child8 {
+  top: 604px;
+  left: 40px;
+}
+.child6,
+.child7,
+.child8 {
+  left: 124px;
+}
+.child7,
+.child8 {
+  left: 209px;
+}
+.child8 {
+  left: 293px;
+}
+.bench-jacket,
+.varsity-jacket {
+  position: absolute;
+  top: 576px;
+  left: 31px;
+  font-weight: 500;
+  font-family: 'pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.bench-jacket {
+  top: 664px;
+  left: 33px;
+}
+.rectangle-div{
+  position: absolute;
+  width: 405px;
+  height: 8px;
+  left: -9px;
+  top: 468px;
+  background: #f1f1f1;
+}
+.top-products{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Pretendard';
+  line-height: 19px;
+  font-style: normal;
+}
+.accesory,
+.long-sleeve,
+.top-products,
+.uniform {
+  position: absolute;
+  top: 664px;
+  left: 130px;
+  font-weight: 500;
+  font-family: 'pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.accesory,
+.long-sleeve,
+.top-products {
+  left: 203px;
+}
+.accesory,
+.top-products {
+  left: 303px;
+}
+.top-products {
+  top: 192px;
+  left: 25px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.hoodie,
+.t-shirts,
+.windbreaker {
+  position: absolute;
+  top: 576px;
+  left: 117px;
+  font-weight: 500;
+  font-family: 'pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.hoodie,
+.t-shirts {
+  left: 215px;
+}
+.hoodie {
+  left: 301px;
+}
+.vector-icon {
+  position: absolute;
+  height: 2.13%;
+  width: 4.62%;
+  top: 9.72%;
+  right: 10%;
+  bottom: 88.15%;
+  left: 75.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  color: #000000;
+}
+.line-div {
+  position: absolute;
+  top: 754.5px;
+  left: -11.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 402px;
+  height: 1px;
+}
+.account-circle-icon,
+.favorite-border-icon,
+.home-icon,
+.shopping-cart-icon {
+  position: absolute;
+  top: 763px;
+  left: 52px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.home-icon{
+  color: #d3645f;
+}
+.account-circle-icon,
+.favorite-border-icon,
+.shopping-cart-icon {
+  left: 136px;
+}
+.account-circle-icon,
+.favorite-border-icon {
+  left: 221px;
+}
+.account-circle-icon {
+  left: 305px;
+}
+.cart,
+.home,
+.like,
+.my {
+  position: absolute;
+  top: 797px;
+  font-weight: 500;
+  font-family: 'pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+.home {
+  left: 52px;
+  color: #d3645f;
+  font-weight: 500;
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.cart,
+.like,
+.my {
+  left: 140px;
+  color: #999999;
+}
+.like,
+.my {
+  left: 227px;
+}
+.my {
+  left: 311px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 142px;
+  left: 25px;
+  background: #ffffff;
+  border: 1px solid #b7b7b7;
+  box-sizing: border-box;
+  width: 182px;
+  height: 24px;
+}
+.polygon-icon {
+  position: absolute;
+  top: 154px;
+  left: 195.01px;
+  width: 9.82px;
+  height: 9.62px;
+}
+.ewha-womans-university {
+  position: absolute;
+  top: 146px;
+  left: 32px;
+  font-size: 10.33px;
+  font-family: var(--font-noto-sans-kr);
+  text-align: center;
+}
+.child9{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 321px;
+  top: 692px;
+  color:#000000;
+}
+.edit-icon {
+  position: absolute;
+  top: 688px;
+  left: 317px;
+  width: 56px;
+  height: 56px;
+  color: #000000;
+}
+.edit-icon {
+  top: 702px;
+  left: 333px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-pretendard);
+}

@@ -1,0 +1,75 @@
+.NFT-Collection{
+    position: absolute;
+    left: 7.95%;
+    right: 46%;
+    top: 12.68%;
+    bottom: 83.89%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+}
+.goback-button{
+    position: absolute;
+    left: 7.95%;
+    right: 88.97%;
+    top: 5.21%;
+    bottom: 92.3%;
+}
+.Poolnft{
+    position: absolute;
+    width: 385px;
+    height: 385px;
+    left: 0px;
+    right: 0px;
+    top: 157px;
+}
+.name{
+    position: absolute;
+    left: 26px;
+    right: 264px;
+    bottom: 289px;
+    top: 536px;
+    font-family: 'Pretendard';
+    font-size: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.date{
+    position: absolute;
+    left: 26px;
+    right: 298px;
+    top: 560px;
+    bottom: 270px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8e8e8e;
+}
+.prenft1{
+    position: absolute;
+    top: 593px;
+    bottom: 134px;
+    left: 17px;
+    right: 255px;
+}
+.prenft2{
+    position: absolute;
+    left: 137px;
+    right: 136px;
+    top: 593px;
+    bottom: 135px;
+}
+.prenft3{
+    position: absolute;
+    left: 258px;
+    right: 18px;
+    bottom: 136px;
+    top: 594px;
+}

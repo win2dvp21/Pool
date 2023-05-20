@@ -1,0 +1,393 @@
+.firstjacket{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 55px;
+    top: 192px;
+}
+.shoppingcarticon,
+.favoritebordericon,
+.redaccounticon,
+.greyhomeicon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 763px;
+}
+
+.greyhome,
+.redaccount,
+.favoriteborder,
+.shoppingcart{
+    position: absolute;
+    top: 797px;
+    height: 14px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.greyhome{
+    width: 33px;
+    left: 52px;
+    color: #999999;
+}
+.shoppingcart{
+    width: 24px;
+    left: 140px;
+    color: #999999;
+}
+.favoriteborder{
+    width: 23px;
+    left: 227px;
+    color: #999999;
+}
+.redaccount{
+    width: 19px;
+    left: 311px;
+    color: #D3645f;
+}
+.shoppingcarticon{
+    left: 136px;
+}
+.favoritebordericon{
+    left: 221px;
+}
+.greyhomeicon{
+    left: 52px;
+}
+.redaccounticon{
+    left: 305px;
+}
+.bottomline{
+    position: absolute;
+    width: 401px;
+    height: 0px;
+    left: 0px;
+    top: 755px;
+    border: 1px solid #c4c4c4;
+}
+.gobackicon{
+    position: absolute;
+    left: 7.95%;
+    right: 88.97%;
+    top: 5.21%;
+    bottom: 92.3%;
+}
+.purchase-history{
+    position: absolute;
+    left: 7.95%;
+    /* right: 43.08%; */
+    top: 12.68%;
+    bottom: 83.89%;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+}
+.first-purchase-box{
+    position: absolute;
+    width: 332px;
+    height: 132px;
+    left: 29px;
+    top: 178px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+.box-bluetag{
+    position: absolute;
+    width: 14px;
+    height: 132px;
+    left: 29px;
+    top: 178px;
+    background: #5196ff;
+    border-radius: 8px 0px 0px 8px;
+}
+.firstparticipants{
+    position: absolute;
+    left: 50.77%;
+    top: 30.21%;
+    right: 38.21%;
+    bottom: 67.65%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.d-1{
+    position: absolute;
+    left: 46.67%;
+    right: 32.31%;
+    top: 22.99%;
+    bottom: 74.88%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5196ff;
+}
+.history1{
+    position: absolute;
+    left: 46.67%;
+    right: 4.36%;
+    top: 25.12%;
+    bottom: 72.99%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.price-1{
+    position: absolute;
+    left: 46.67%;
+    right: 37.44%;
+    top: 27.73%;
+    bottom: 70.38%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.user1{
+    position: absolute;
+    left: 46.67%;
+    right: 50.51%;
+    top: 30.21%;
+    bottom: 68.48%;
+}
+.firstsizem{
+    position: absolute;
+    left: 64.36%;
+    right: 23.33%;
+    top: 30.21%;
+    bottom: 67.89%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.greyfilter{
+    position: absolute;
+    z-index: 3;
+    width: 332px;
+    height: 132px;
+    left: 29px;
+    top: 336px;
+    background: rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+.second-purchase-box{
+    position: absolute;
+    z-index: 1;
+    width: 332px;
+    height: 132px;
+    left: 29px;
+    top: 336px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+.box-greytag{
+    position: absolute;
+    z-index: 2;
+    width: 14px;
+    height: 132px;
+    left: 29px;
+    top: 336px;
+    background: #676767;
+    border-radius: 8px 0px 0px 8px;
+}
+.secondjacket{
+    z-index: 2;
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 55px;
+    top: 350px;
+}
+.d-24{
+    z-index: 2;
+    position: absolute;
+    left: 46.67%;
+    right: 32.31%;
+    top: 42.65%;
+    bottom: 55.21%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #676767;
+}
+.price-2{
+    position: absolute;
+    z-index: 2;
+    left: 46.67%;
+    right: 37.44%;
+    top: 47.39%;
+    bottom: 50.71%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.history2{
+ position: absolute;
+ z-index: 2;
+ left: 46.67%;
+ right: 4.36%;
+ top: 44.79%;
+ bottom: 53.32%;
+ font-family: "Pretendard";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 10px;
+ line-height: 12px;
+ color: #000000;   
+}
+.user2{
+    position: absolute;
+    z-index: 2;
+    left: 46.67%;
+    right: 50.51%;
+    top: 49.88%;
+    bottom: 48.82%;
+}
+.secondparticipants{
+    position: absolute;
+    z-index: 2;
+    left: 50.77%;
+    top: 49.88%;
+    bottom: 47.99%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.sizexl{
+    position: absolute;
+    z-index: 2;
+    left: 64.36%;
+    right: 23.33%;
+    bottom: 48.22%;
+    top: 49.88%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+
+}
+.third-purchase-box{
+    position: absolute;
+    z-index: 1;
+    width: 332px;
+    height: 132px;
+    left: 29px;
+    top: 495px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+.ewhatshirt{
+    z-index: 2;
+    position: absolute;
+    width: 104px;
+    height: 105px;
+    left: 55px;
+    top: 509px;
+}
+.order-fulfilled{
+    z-index: 2;
+    position: absolute;
+    left: 46.67%;
+    right: 25.64%;
+    top: 60.55%;
+    bottom: 37.32%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.history3{
+    z-index: 2;
+    position: absolute;
+    left: 46.67%;
+    right: 4.36%;
+    top: 62.68%;
+    bottom: 35.43%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.price-3{
+    z-index: 2;
+    position: absolute;
+    left: 46.67%;
+    right: 37.44%;
+    top: 65.28%;
+    bottom: 32.82%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.user3{
+    z-index: 2;
+    position: absolute;
+    left: 46.67%;
+    right: 50.51%;
+    top: 67.77%;
+    bottom: 30.92%;
+}
+.thirdparticipants{
+    z-index: 2;
+    position: absolute;
+    left: 50.77%;
+    right: 38.21%;
+    top: 67.77%;
+    bottom: 30.09%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
+.secondsizem{
+    z-index: 2;
+    position: absolute;
+    left: 64.36%;
+    right: 23.33%;
+    top: 67.77%;
+    bottom: 30.33%;
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777777;
+}
