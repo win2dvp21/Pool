@@ -1,14 +1,14 @@
-# Pool
+# POOL
 
-### Pick it and Pay it. Whole lots of Cherries.
+### 캐치프레이즈
 
-A Payment Service for the Consumer's **Reasonable**, **Effective**, **Valuable** Consumption
+POOL is the joint goods platform **with Avalanche** that solves the problem of efficiency and reliability of existing goods platform service systems. 
 
-***Cherries prepared in one place for you who want to become a cherry picker of benefits***
+All inefficient process of existing platform can be minimized. 
 
-<img src="https://images.unsplash.com/photo-1562218636-798e433e94a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=826&q=80" width="187" height="280"/>
+Also, as the transactions are uploaded in chain, it solves the reliability problem of information. 
 
-### ***Do you want some?:smile: Then PICKER'S PAY * PICK A CHERRY right now!***
+<img src="https://i.imgur.com/wEE7U8k_d.webp?maxwidth=1520&fidelity=grand" width="400">
 
 ## Glitch Hackathon
 
