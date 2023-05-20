@@ -41,29 +41,25 @@ Core wallet
 
 ### Components
 
-- `/` homepage, You can connet to your wallet.
+- `/` the homepage, where our POOL begins.
 
-- `/consumer` You can check your wallet balance, coupons and stamp cards you own here.
+- `/connect` You can connect with your Avalanche wallet here.
 
-- `/pay` This page helps you easily pay with cryptocurrency.
+- `/information` If you sign up here, you can use our POOL.
 
-- `/transfer` You can transfer money to others or send coupons and stamp cards that you own.
+- `/main` You can see all the products you can purchase in one place here.
 
-- `/coupon` You can check the coupons you own.
+- `/detail` You can check the detailed description of the product, and you can also purchase it.
 
-- `/stampcard` You can check the stamp cards you own.
+- `/design` What if you were a designer? Let's upload your design and find people to buy together.
 
-- `/receipt` You can check your whole receipts NFT.
+- `/mypage` You can check the purchase history, NFT, and recently viewed products.
 
-- `/afterpay` Coupons or stamp cards can be applied while purchasing products.
+- `/nftlist` Let's look at the NFT you got in one place.
 
-- `/couponorder` You can use your coupon here.
+- `/goodsnft`, `/poolnft` Each NFT can be checked in detail.
 
-- `/aftercouponorder` After you make a purchase, you can check your purchase history with the coupon applied.
-
-- `/cardorder` You can use your stampcard here.
-
-- `/aftercardorder` After you make a purchase, you can check your purchase history with the stampcard applied.
+- `/shoppinghistory` You can check the details of your purchases on POOL.
 
 ### Wallet Adapter
 
