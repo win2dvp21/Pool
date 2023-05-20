@@ -164,10 +164,18 @@ export function Connect() {
 
   return (
     <div>
+      <div
+        style={{
+          position: 'absolute',
+          top: '360px',
+          left: '31px',
+          fontSize: '30px',
+          fontWeight: '550'
+        }}
+      >
+        Successfully Connected
+      </div>
 
-      <strong>Connected:</strong>
-      <br />
-      {activeAccount}
 
       <Button
         variant="contained"
